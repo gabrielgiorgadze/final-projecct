@@ -1,0 +1,108 @@
+header {
+  border: 2px dashed black;
+  height: 88px;
+  display: flex;
+
+  align-items: center;
+  padding: 0 16px;
+}
+
+.headercontainer {
+  border: 1px dashed hotpink;
+  max-width: 1315px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.mainicon {
+  width: 64px;
+  height: 64px;
+  mix-blend-mode: screen;
+  background-color: black;
+  fill: black;
+}
+.title {
+  color: #7e9b63;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.title:hover {
+  cursor: pointer;
+  color: #ff0000;
+}
+
+.login {
+  margin-left: 955px;
+  color: #7e9b63;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.login:hover {
+  cursor: pointer;
+  color: #ff0000;
+}
+.loginmain {
+  border: 1px dashed hotpink;
+  max-width: 1315px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 80px;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.logintext {
+  width: 550px;
+  height: 32px;
+  background-color: #7e9b63;
+  border-radius: 50px;
+  border-color: #7e9b63;
+}
+.fortext {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fortext label {
+  margin-left: 23px;
+  color: #f2f1ec;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.forpassword {
+  display: flex;
+  flex-direction: column;
+}
+.mybutton {
+  width: 100px;
+  height: 35px;
+  border-radius: 50px;
+  border: black;
+  background-color: #7e9b63;
+}
+form :hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+.loginmain h4 {
+  /* border: 2px dotted blue;*/
+  width: 210px;
+  height: 36px;
+  font-size: 36px;
+  margin-left: 85px;
+}
