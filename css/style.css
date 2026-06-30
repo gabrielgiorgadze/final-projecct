@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
 header {
   border: 2px dashed black;
   height: 88px;
@@ -120,6 +126,7 @@ h3 {
   font-size: larger;
 }
 .log {
+  color: white;
   margin-right: -130px;
 }
 .big-login h3 {
