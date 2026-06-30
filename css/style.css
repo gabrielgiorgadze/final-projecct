@@ -9,35 +9,23 @@ header {
 
 .headercontainer {
   border: 1px dashed hotpink;
-  max-width: 1315px;
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 88px;
   background-color: black;
 }
-.mainicon {
-  width: 64px;
+.headercontainer svg {
+  width: 180px;
   height: 64px;
-  mix-blend-mode: screen;
-  background-color: black;
-  fill: black;
-}
-.title {
-  color: #7e9b63;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-}
-.title:hover {
-  cursor: pointer;
-  color: #ff0000;
 }
 
 .login {
   margin-left: 955px;
-  color: #7e9b63;
+  color: #ff0000;
   text-align: center;
   font-family: Inter;
   font-size: 20px;
@@ -51,7 +39,7 @@ header {
 }
 .loginmain {
   border: 1px dashed hotpink;
-  max-width: 1315px;
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -60,14 +48,17 @@ header {
   gap: 20px;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 .logintext {
   width: 550px;
   height: 32px;
-  background-color: #7e9b63;
+  background-color: #ff0000;
   border-radius: 50px;
-  border-color: #7e9b63;
+  border-color: #ff0000;
 }
 .fortext {
   display: flex;
@@ -92,17 +83,54 @@ header {
   height: 35px;
   border-radius: 50px;
   border: black;
-  background-color: #7e9b63;
+  background-color: #ff0000;
+}
+.mybutton2 {
+  width: 100px;
+  height: 35px;
+  border-radius: 50px;
+  border: black;
+  background-color: #ffffff;
 }
 form :hover {
   cursor: pointer;
-  background-color: green;
+  background-color: rgb(82, 1, 1);
 }
-
-.loginmain h4 {
+.mybutton2 :hover {
+  background-color: aqua;
+}
+.mybutton2 {
+  margin-bottom: 74px;
+}
+.loginmain h4,
+h3 {
   /* border: 2px dotted blue;*/
   width: 210px;
   height: 36px;
   font-size: 36px;
   margin-left: 85px;
+  font-family: "Bebas Neue";
+}
+.big-login {
+  /* border: 2px dotted purple;*/
+  display: flex;
+  width: 300px;
+  margin-bottom: 50px;
+  margin-top: -20px;
+  font-size: larger;
+}
+.log {
+  margin-right: -130px;
+}
+.big-login h3 {
+  color: #ff0000;
+}
+.main-container {
+  border: 1px dashed rgb(21, 0, 255);
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: black;
 }
